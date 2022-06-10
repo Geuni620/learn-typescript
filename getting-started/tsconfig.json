@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": true,
-    "noImplicitAny": true
+    "allowJs": true, // 이 프로젝트에서 자바스크립트를 허용하겠다
+    "checkJs": true, // @ts-check와 같은 기능, 자바스크립트에서 타입스크립트의 기능들을 활용해보겠다.
+    "noImplicitAny": true // 모든 타입에 대해서 최소한 any라는 기본타입이라도 넣어야한다는 설정
   }
 }
