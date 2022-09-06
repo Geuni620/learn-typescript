@@ -14,13 +14,16 @@ var items: Dropdown<number> = {
   title: 'a'
 }
 
-interface DetailedDropdown<T> extends Dropdown<T> {
+interface DetailedDropdown<K> extends Dropdown<K> {
   description: string;
-  tag: T;
+  tag: K;
 }
 var detailItems: DetailedDropdown<number> = {
   value: 'hi',
   title: 'a',
   description: 'b',
-  tag: 'c'
+  tag: 10
 }
+
+//best common type
+var arr =[1, 2, true]
